@@ -1,1 +1,10 @@
 Predefined gclient configurations for various targets.
+
+
+Build for x86
+--------------------
+
+# ln -s gclient_custom_configs/oe/x86/generic/cef3.conf gclient.conf
+# export CHROMIUM_REVISION="e800fe7470fa87dc1ca5b148a7c2c41f603fdcbd"
+# gclient sync --gclientfile=gclient.conf -f -R --revision=$CHROMIUM_REVISION --nohooks
+
